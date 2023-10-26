@@ -20,11 +20,8 @@ def resolver_limite(expressao, variavel, ponto):
     })
 
     if resultado_direto == S.NaN:
-        # Caso de indeterminação, simplificar
         passos_simplificacao = [
             "Simplificação inicial: {}".format(str(expressao))]
-        # Adicione lógica de simplificação aqui
-        # Substitua isso após a lógica de simplificação
         expressao_simplificada = expressao
 
         passos.append({
